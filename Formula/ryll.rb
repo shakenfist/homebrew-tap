@@ -1,13 +1,13 @@
 class Ryll < Formula
   desc "A Rust SPICE VDI test client"
   homepage "https://github.com/shakenfist/ryll"
-  version "0.1.3"
+  version "0.1.4"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/shakenfist/ryll/releases/download/v#{version}/ryll-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "3d4a9117f772f4e94becc6532470ea2b4dd77c2cc65a166371731526e6a35d77"
+      sha256 "e56aa45c63cfbe68440f67335b4efcabd3941a38b4021809b73ad945a9b8730d"
     end
   end
 
